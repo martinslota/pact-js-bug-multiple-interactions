@@ -1,0 +1,17 @@
+{
+  "name": "pact-js-bug-multiple-interactions",
+  "version": "1.0.0",
+  "description": "Minimal example of a bug in pact-js: multiple interactions are no longer supported",
+  "scripts": {
+    "test": "rimraf pacts && mocha"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@pact-foundation/pact": "^11.0.2",
+    "axios": "^0.27.2",
+    "chai": "^4.3.6",
+    "mocha": "^9.2.2",
+    "mocha-pact": "^0.10.1",
+    "rimraf": "^3.0.2"
+  }
+}
